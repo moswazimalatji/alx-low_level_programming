@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * return: Always return 0 (success)
+ * Return: Always return 0 (success)
  */
 int main(void)
 {
@@ -16,6 +16,9 @@ int main(void)
 		if (i != 'e' || i != 'q')
 		{
 			putchar(i);
+		} else
+		{
+			continue;
 		}
 	}
 	putchar('\n');
