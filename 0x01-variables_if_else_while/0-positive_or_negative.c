@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main function is used to check if a number
- *  is positive or negative or zero 
-*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	int n;
