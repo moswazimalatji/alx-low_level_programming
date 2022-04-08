@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 
-/*
- * Main functon will run the program of printing alphabet
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
