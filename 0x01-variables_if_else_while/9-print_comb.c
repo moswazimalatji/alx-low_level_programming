@@ -11,16 +11,19 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 10; i++)
 	{
-		if (i != 9)
+		if (i <= 9)
 		{
 			putchar(i % 10 + '0');
+		}
+		if (i != 9)
+		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	putchar(9 % 10 + '0');
+	putchar('\n');
 
 	return (0);
 }
