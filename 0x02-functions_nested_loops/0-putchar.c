@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * main - Point start
+ *
+ * Return: Always return 0 (success)
+ */
+int main(void)
+{
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('\n');
+
+	return (0);
+
+}
