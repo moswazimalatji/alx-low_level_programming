@@ -4,7 +4,7 @@
 /**
  * _islower - check lowercase
  *
- * c - input character
+ * parameter c - input character
  *
  * return: 1 if is lower else 0.
  */
