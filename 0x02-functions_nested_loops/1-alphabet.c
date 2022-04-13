@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - check the code
  *
@@ -19,4 +20,5 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
+	_putchar('\n');
 }
