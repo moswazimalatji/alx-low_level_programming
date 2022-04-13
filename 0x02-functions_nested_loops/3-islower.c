@@ -4,7 +4,7 @@
 /**
  * _islower - check lowercase
  *
- * int c: - input character
+ * C: - input character
  *
  * Return: 1 if is lower else 0.
  */
