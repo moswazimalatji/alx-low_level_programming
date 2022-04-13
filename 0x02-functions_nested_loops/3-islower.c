@@ -4,9 +4,9 @@
 /**
  * _islower - check lowercase
  *
- * parameter c - input character
+ * Parameter c - input character
  *
- * return: 1 if is lower else 0.
+ * Return: 1 if is lower else 0.
  */
 int _islower(int c)
 {
