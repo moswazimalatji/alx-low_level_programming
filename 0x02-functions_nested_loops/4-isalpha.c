@@ -4,7 +4,7 @@
 /**
  * _isalpha - check alphabet
  *
- * c - Parameter 
+ * Parameter: c character
  *
  * Return: 1 if is aplphabet else 0.
  */
