@@ -19,10 +19,6 @@ void print_rev(char *s)
 		s[len - i - 1] = temp;
 	}
 	
-	while (*s)
-	{
-		_putchar(*s);
-		s++;
-	}
+	_putchar(s);
 }
 
