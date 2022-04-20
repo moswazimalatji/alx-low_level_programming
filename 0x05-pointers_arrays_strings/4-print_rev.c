@@ -22,5 +22,6 @@ void print_rev(char *s)
 		s[rind] = temp;
 		rind--;
 	}
+	puts(s);
 }
 
