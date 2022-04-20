@@ -8,20 +8,16 @@
  */
 void print_rev(char *s)
 {
-	int len, i, lind, rind;
-	char temp;
+	int len, i, temp;
 
 	len = strlen(s);
-	lind = 0;
-	rind = len - 1;
 
-	for (i = lind; i < rind; i++)
+	for (i = 0; i < len / 2; i++)
 	{
 		temp = s[i];
-		s[i] = s[rind];
-		s[rind] = temp;
-		rind--;
+		s[i] = s[len - i -1];
+		s[len - i - 1] = temp;
 	}
-	puts(s);
+	
 }
 
