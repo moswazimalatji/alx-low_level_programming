@@ -10,9 +10,7 @@
  */
 void print_array(int *a, int n)
 {
-	int i, len;
-
-	len = sizeof(a);
+	int i;
 
 	for (i = 0; i < n; i++)
 	{
