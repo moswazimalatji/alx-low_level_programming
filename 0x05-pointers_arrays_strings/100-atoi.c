@@ -9,28 +9,13 @@
  */
 int _atoi(char *s)
 {
-	int neg, num, i;
+	int num, i;
 
 	i = 0;
-	neg = 1;
 	num = 0;
 
-	while (s[i] <= ' ')
-		i++;
+	for (i = 0; s[i] != '\0'; i++)
+		num = num * 10 + s[i] - '0';
 
-	if (s[i] == '-' || s[i] == '+')
-	{
-		if (s[i] == '-')
-		{
-			neg *= -1;
-		}
-		i++;
-	}
-
-	while (s[i] >= '0' && s[i] <= '9')
-	{
-		num = num * 10 + (s[i] - 48);
-		i++;
-	}
-	return (num * neg);
+	return (num);
 }
