@@ -18,7 +18,7 @@ int _atoi(char *s)
 	while (s[i] <= ' ')
 		i++;
 
-	if (s[i] == '-' || s[i] '+')
+	if (s[i] == '-' || s[i] == '+')
 	{
 		if (s[i] == '-')
 		{
