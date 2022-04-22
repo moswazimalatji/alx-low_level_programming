@@ -17,10 +17,10 @@ void randPassGen(int N)
 
 	srand((unsigned int)(time(NULL)));
 
-	char nums[] = "0123456789";
-	char lowLet[] = "abcdefghijklmnopqrstuvwxyz";
-	char upperLet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char sym[] = "!@#$^&*?";
+	char nums[10] = "0123456789";
+	char lowLet[26] = "abcdefghijklmnopqrstuvwxyz";
+	char upperLet[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char sym[8] = "!@#$^&*?";
 	randm = rand() % 4;
 	char pass[N];
 
