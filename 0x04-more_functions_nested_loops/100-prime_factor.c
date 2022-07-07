@@ -1,9 +1,4 @@
-/*
- * File: 100-prime_factor.c
- * Auth: Brennan D Baraban
- */
-
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Finds and prints the largest prime
