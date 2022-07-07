@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /*
- * Header file containing prototypes for all functions
+ * Header file containing prototypes for all functions code
  * used in the 0x04-more_functions_nested_loops directory.
  */
 
